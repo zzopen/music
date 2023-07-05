@@ -1,0 +1,25 @@
+@import '../namespace.scss';
+@import '../pre/pre-cls.scss';
+
+:export {
+	namespace: $namespace;
+	layout: $pre-cls-layout;
+	layoutContent: $pre-cls-layout-content;
+	layoutHeader: $pre-cls-layout-header;
+	layoutHeaderRight: $pre-cls-layout-header-right;
+	layoutHeaderLeft: $pre-cls-layout-header-left;
+	layoutHeaderTrigger: $pre-cls-layout-header-trigger;
+	headerUserDropdown: $pre-cls-header-user-dropdown;
+	layoutSider: $pre-cls-layout-sider;
+	layoutSiderSider: $pre-cls-layout-sider-sider;
+	layoutMenu: $pre-cls-layout-menu;
+	appLogo: $pre-cls-app-logo;
+	settingSwitchItem: $pre-cls-setting-switch-item;
+	layoutModePick: $pre-cls-layout-mode-pick;
+	themeColorPick: $pre-cls-theme-color-pick;
+	appThemeSwitch: $pre-cls-app-theme-switch;
+	modalClose: $pre-cls-modal-close;
+	svgIcon: $pre-cls-svg-icon;
+	basicTitle: $pre-cls-basic-title;
+	basicDrawerHeader: $pre-cls-basic-drawer-header;
+}
