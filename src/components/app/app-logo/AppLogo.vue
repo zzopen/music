@@ -32,11 +32,11 @@ const getTitleClass = computed(() => {
 	display: flex;
 	align-items: center;
 	padding-left: 40px;
-	cursor: pointer;
-	transition: all 0.2s ease;
 	height: $header-height;
-	width: 210px;
-	min-width: 210px;
+    width: $sider-width;
+    background-color: white;
+    cursor: pointer;
+	transition: all 0.2s ease;
 
 	& img {
 		width: $logo-width;

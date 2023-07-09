@@ -5,29 +5,13 @@ $pre-cls-layout-content: #{$namespace}-layout-content;
 
 // layout-header
 $pre-cls-layout-header: #{$namespace}-layout-header;
-$pre-cls-layout-header-right: #{$namespace}-layout-header-right;
-$pre-cls-layout-header-left: #{$namespace}-layout-header-left;
-$pre-cls-layout-header-trigger: #{$namespace}-layout-header-trigger;
-$pre-cls-header-user-dropdown: #{$namespace}-header-user-dropdown;
+
+// layout-footer
+$pre-cls-layout-footer: #{$namespace}-layout-footer;
 
 // layout-sider
 $pre-cls-layout-sider: #{$namespace}-layout-sider;
 $pre-cls-layout-sider-sider: #{$namespace}-layout-sider-sider;
 
-// layout menu
-$pre-cls-layout-menu: #{$namespace}-layout-menu;
 // logo
 $pre-cls-app-logo: #{$namespace}-app-logo;
-
-// layout setting
-$pre-cls-setting-switch-item: #{$namespace}-setting-switch-item;
-$pre-cls-layout-mode-pick: #{$namespace}-layout-mode-pick;
-$pre-cls-theme-color-pick: #{$namespace}-theme-color-pick;
-$pre-cls-app-theme-switch: #{$namespace}-app-theme-switch;
-
-// global components
-$pre-cls-modal-close: #{$namespace}-modal-close;
-$pre-cls-svg-icon: #{$namespace}-svg-icon;
-
-$pre-cls-basic-title: #{$namespace}-basic-title;
-$pre-cls-basic-drawer-header: #{$namespace}-basic-drawer-header;

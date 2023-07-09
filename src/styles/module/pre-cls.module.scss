@@ -1,25 +1,16 @@
 @import '../namespace.scss';
 @import '../pre/pre-cls.scss';
+@import '../variables';
 
 :export {
 	namespace: $namespace;
 	layout: $pre-cls-layout;
 	layoutContent: $pre-cls-layout-content;
 	layoutHeader: $pre-cls-layout-header;
-	layoutHeaderRight: $pre-cls-layout-header-right;
-	layoutHeaderLeft: $pre-cls-layout-header-left;
-	layoutHeaderTrigger: $pre-cls-layout-header-trigger;
-	headerUserDropdown: $pre-cls-header-user-dropdown;
+	layoutFooter: $pre-cls-layout-footer;
 	layoutSider: $pre-cls-layout-sider;
 	layoutSiderSider: $pre-cls-layout-sider-sider;
-	layoutMenu: $pre-cls-layout-menu;
 	appLogo: $pre-cls-app-logo;
-	settingSwitchItem: $pre-cls-setting-switch-item;
-	layoutModePick: $pre-cls-layout-mode-pick;
-	themeColorPick: $pre-cls-theme-color-pick;
-	appThemeSwitch: $pre-cls-app-theme-switch;
-	modalClose: $pre-cls-modal-close;
-	svgIcon: $pre-cls-svg-icon;
-	basicTitle: $pre-cls-basic-title;
-	basicDrawerHeader: $pre-cls-basic-drawer-header;
+    // 导出变量供js使用
+    siderWidth: $sider-width;
 }

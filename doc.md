@@ -26,6 +26,8 @@ pnpm i -D ant-design-vue
 pnpm i @ant-design/icons-vue
 pnpm i dayjs
 pnpm i axios
+pnpm i @vueuse/electron
+pnpm i mitt
 
 pnpm i -D unplugin-auto-import
 pnpm i -D unplugin-vue-components

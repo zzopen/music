@@ -19,6 +19,11 @@ const routes: AppRouteRecordRaw = {
       name: "discover",
       component: () => import("@/views/discover/index.vue"),
     },
+    {
+      path: "/play",
+      name: "play",
+      component: () => import("@/views/components/play"),
+    },
   ],
 };
 

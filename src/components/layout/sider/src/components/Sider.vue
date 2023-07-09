@@ -21,7 +21,7 @@ const layoutSiderProps = computed(() => {
 		theme: 'light',
 		collapsed: false,
 		collapsedWidth: 80,
-		width: 200
+		width: preDefineCls.siderWidth
 	}
 })
 
@@ -33,11 +33,6 @@ const getClass = computed(() => {
 
 <style scoped lang="scss">
 .#{$pre-cls-layout-sider-sider} {
-	&--fixed {
-		position: fixed;
-		top: 0;
-		left: 0;
-		height: 100%;
-	}
+    height: 100%;
 }
 </style>

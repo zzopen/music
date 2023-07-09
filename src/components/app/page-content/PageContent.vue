@@ -4,10 +4,9 @@
             <!-- <keep-alive v-if="false">
 						<component :is="Component" :key="route.fullPath" />
 					</keep-alive> -->
-            <div>
+
                 <!-- {{ route }} -->
                 <component :is="Component" />
-            </div>
         </template>
     </RouterView>
 </template>
