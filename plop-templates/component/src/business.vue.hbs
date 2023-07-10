@@ -1,0 +1,34 @@
+{{#if template}}
+<template>
+    <div :class="getClass">
+
+    </div>
+</template>
+{{/if}}
+
+{{#if script}}
+<script setup lang="ts">
+import { computed, ref } from 'vue'
+import { usePreCls } from '@/composables'
+import { preDefineCls } from '@/styles/module'
+
+defineOptions({
+    name: 'm-{{ component_name }}',
+    inheritAttrs: false
+})
+
+const { preCls } = usePreCls(preDefineCls.{{ camelCase component_name }})
+const getClass = computed(() => {
+	return [preCls]
+})
+
+</script>
+{{/if}}
+
+{{#if style}}
+<style scoped lang="scss">
+.#\{$pre-cls-{{ component_name }}\} {
+
+}
+</style>
+{{/if}}

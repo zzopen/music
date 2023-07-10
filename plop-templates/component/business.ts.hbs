@@ -1,0 +1,6 @@
+import {withInstall} from '@/utils'
+import {{ camelCase component_name }} from "./src/index.vue";
+export * from './src/props.ts'
+
+export const { {{ pascalCase component_name }} } = withInstall({{ camelCase component_name }});
+export default {{ pascalCase component_name }};
