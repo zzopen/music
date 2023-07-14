@@ -1,0 +1,45 @@
+<template>
+  <menu-section title="离线歌单">
+    <template v-slot:append>
+       <add-icon @click="showSheet"/>
+    </template>
+    <template v-slot:default>
+        <template v-for="item in sheetList" :key="item.id">
+            <sheet-item :title="item.name" @click="onClickSheet(item)"/>
+        </template>
+    </template>
+  </menu-section>
+</template>
+
+<script setup lang="ts">
+import MenuSection from '@/business/views/components/menu-section'
+import AddIcon from '@/business/views/components/add-icon'
+import SheetItem from '@/business/views/components/sheet-item'
+import {usePlayListStore} from '@/stores'
+
+defineOptions({
+    name: 'OfflineSongSheet'
+});
+
+const playListStore = usePlayListStore()
+
+const sheetList = [{id: "1", name: "临时"},{id: "2", name: "我喜欢"}]
+const showSheet = () => {}
+const onClickSheet = async (item: any) => {
+    console.log(item)
+    if (item.id == 1) {
+        await playListStore.__test__setPlayList()
+        await playListStore.__test__first()
+    }
+}
+
+</script>
+
+<style scoped lang="scss">
+.add-icon {
+    cursor: pointer;
+    &:hover {
+        color: $color-primary;
+    }
+}
+</style>

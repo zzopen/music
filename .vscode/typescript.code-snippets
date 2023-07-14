@@ -1,0 +1,6 @@
+{
+  "import business utils": {
+    "prefix": "ibu",
+    "body": ["import { $1 } from '@/business/utils'"]
+  }
+}

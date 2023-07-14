@@ -1,0 +1,15 @@
+@import '../namespace.scss';
+@import '../variables';
+
+:export {
+	namespace: $namespace;
+	layout: $namespace-layout;
+	layoutContent: $namespace-layout-content;
+	layoutHeader: $namespace-layout-header;
+	layoutFooter: $namespace-layout-footer;
+	layoutSider: $namespace-layout-sider;
+	layoutSiderSider: $namespace-layout-sider-sider;
+	appLogo: $namespace-app-logo;
+    // 导出变量供js使用
+    siderWidth: $sider-width;
+}
