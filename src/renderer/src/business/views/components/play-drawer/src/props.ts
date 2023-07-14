@@ -1,6 +1,4 @@
-const playDrawerProps = () => ({
+const playDrawerProps = () => ({})
+type PlayDrawerProps = VueExtractFnPropsType<typeof playDrawerProps>
 
-});
-type PlayDrawerProps = VueExtractFnPropsType<typeof playDrawerProps>;
-
-export { type PlayDrawerProps, playDrawerProps };
+export { type PlayDrawerProps, playDrawerProps }

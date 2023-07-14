@@ -1,6 +1,4 @@
-const playControlLeftProps = () => ({
+const playControlLeftProps = () => ({})
+type PlayControlLeftProps = VueExtractFnPropsType<typeof playControlLeftProps>
 
-});
-type PlayControlLeftProps = VueExtractFnPropsType<typeof playControlLeftProps>;
-
-export { type PlayControlLeftProps, playControlLeftProps };
+export { type PlayControlLeftProps, playControlLeftProps }

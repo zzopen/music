@@ -1,7 +1,7 @@
 <template>
-	<a-layout-header :class="getClass">
-		<header-content />
-	</a-layout-header>
+  <a-layout-header :class="getClass">
+    <header-content />
+  </a-layout-header>
 </template>
 
 <script setup lang="ts">
@@ -11,34 +11,36 @@ import { useCls } from '@/composables'
 import HeaderContent from '@/business/views/components/header'
 
 defineOptions({
-    name: 'LayoutHeader'
+  name: 'LayoutHeader'
 })
 
 const { nsCls } = useCls(globalCls.layoutHeader)
 const getClass = computed(() => {
-	return [nsCls, {
-        [`${nsCls}--fixed`]: true
-    }]
+  return [
+    nsCls,
+    {
+      [`${nsCls}--fixed`]: true
+    }
+  ]
 })
 </script>
 
 <style scoped lang="scss">
 .#{$namespace-layout-header} {
-	padding: 0;
-    width: inherit;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: $header-height;
-	line-height: $header-height;
-    background-color: gray;
+  padding: 0;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: $header-height;
+  line-height: $header-height;
+  background-color: gray;
 
-
-    &--fixed {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 100;
-	}
+  &--fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
 }
 </style>

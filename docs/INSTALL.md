@@ -1,10 +1,6 @@
 # 初始化项目
 ```shell
-vite创建项目
-pnpm create vite@latest electron --template vue-ts
-
-// pnpm create electron-vite, 版本可能优点落后，自行检查升级
-// pnpm create @quick-start/electron my-app --template vue
+pnpm create @quick-start/electron my-app --template vue-ts 版本可能优点落后，自行检查升级
 
 pnpm i -D @vitejs/plugin-vue
 pnpm i -D vite
@@ -13,7 +9,6 @@ pnpm i -D vue-tsc
 pnpm i -D unplugin-auto-import
 pnpm i -D unplugin-auto-import
 pnpm i -D unplugin-vue-components
-
 
 pnpm i electron
 pnpm i electron-store
@@ -30,6 +25,7 @@ pnpm i -D @types/fs-extra
 
 pnpm i -D ant-design-vue
 pnpm i @ant-design/icons-vue
+pnpm i vue-dompurify-html
 pnpm i vue-router
 pnpm i pinia
 pnpm i pinia-plugin-persistedstate
@@ -50,6 +46,8 @@ pnpm i -D unocss
 
 // lint
 pnpm i -D @zzopen/eslint-config-vue
+
+
 ```
 ```shell
 
@@ -64,3 +62,4 @@ pnpm run dev
 [ant-design-vue](https://www.antdv.com/components/overview-cn/)
 [tailwindcss](https://www.tailwindcss.cn/docs/guides/vite)
 [electron-vite](https://cn.electron-vite.org/guide/troubleshooting.html#%E6%9E%84%E5%BB%BA)
+[eslint.vuejs](https://eslint.vuejs.org/rules/first-attribute-linebreak.html)

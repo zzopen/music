@@ -48,5 +48,8 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   }
 }

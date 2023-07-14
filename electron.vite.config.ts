@@ -13,8 +13,7 @@ export default defineConfig({
       alias: {
         '@main': resolve('src/main'),
         '@preload': resolve('src/preload'),
-        '@': resolve('src/renderer/src'),
-        '@resources': resolve('resources/')
+        '@resources': resolve('resources')
       }
     }
   },
@@ -24,7 +23,7 @@ export default defineConfig({
       alias: {
         '@main': resolve('src/main'),
         '@preload': resolve('src/preload'),
-        '@resources': resolve('resources/')
+        '@resources': resolve('resources')
       }
     }
   },
@@ -49,7 +48,7 @@ export default defineConfig({
     plugins: [
       vue(),
       Components({
-        dts: resolve('src/renderer/src/components.d.ts'),
+        dts: resolve('src/renderer/src/plugin-components.d.ts'),
         dirs: [], // 不能删除
         resolvers: [
           AntDesignVueResolver({

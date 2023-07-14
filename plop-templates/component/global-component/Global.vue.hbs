@@ -1,11 +1,3 @@
-{{#if template}}
-<template>
-    <div :class="getClass">
-
-    </div>
-</template>
-{{/if}}
-
 {{#if script}}
 <script setup lang="ts">
 import { computed, ref } from 'vue'
@@ -25,10 +17,16 @@ const getClass = computed(() => {
 </script>
 {{/if}}
 
+{{#if template}}
+<template>
+    <div :class="getClass">
+
+    </div>
+</template>
+{{/if}}
+
 {{#if style}}
 <style scoped lang="scss">
-.#\{$namespace-{{ component_name }}\} {
-
-}
+@import './index.scss';
 </style>
 {{/if}}

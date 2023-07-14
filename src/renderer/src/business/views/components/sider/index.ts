@@ -1,4 +1,4 @@
-import SiderContent from "./src/index.vue";
+import SiderContent from './src/index.vue'
 
-export { SiderContent };
-export default SiderContent;
+export { SiderContent }
+export default SiderContent

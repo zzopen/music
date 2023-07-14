@@ -7,4 +7,4 @@ const isMac = process.platform == 'darwin'
 const isProd = process.env.NODE_ENV == 'production'
 const isDev = process.env.NODE_ENV == 'development'
 
-export {isLinux, isMac, isWin, isProd,isDev}
+export { isLinux, isMac, isWin, isProd, isDev }

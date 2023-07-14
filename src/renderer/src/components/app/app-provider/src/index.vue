@@ -1,11 +1,11 @@
 <template>
-    <slot></slot>
+  <slot></slot>
 </template>
 
 <script setup lang="ts">
 defineOptions({
-    name: 'AppProvider'
-});
+  name: 'AppProvider'
+})
 </script>
 
 <style scoped lang="scss"></style>

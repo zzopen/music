@@ -1,5 +1,5 @@
-import { withInstall } from "@/utils";
-import layoutFooter from "./src/index.vue";
+import { withInstall } from '@/utils'
+import layoutFooter from './src/index.vue'
 
-export const LayoutFooter = withInstall(layoutFooter);
-export default LayoutFooter;
+export const LayoutFooter = withInstall(layoutFooter)
+export default LayoutFooter

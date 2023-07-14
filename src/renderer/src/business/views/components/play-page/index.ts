@@ -1,4 +1,4 @@
-import PlayPage from "./src/index.vue";
+import PlayPage from './src/index.vue'
 
-export { PlayPage };
-export default PlayPage;
+export { PlayPage }
+export default PlayPage

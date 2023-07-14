@@ -1,4 +1,4 @@
-import FooterContent from "./src/index.vue";
+import FooterContent from './src/index.vue'
 
-export { FooterContent };
-export default FooterContent;
+export { FooterContent }
+export default FooterContent

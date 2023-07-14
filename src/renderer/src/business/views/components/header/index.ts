@@ -1,4 +1,4 @@
-import HeaderContent from "./src/index.vue";
+import HeaderContent from './src/index.vue'
 
-export { HeaderContent };
-export default HeaderContent;
+export { HeaderContent }
+export default HeaderContent

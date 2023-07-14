@@ -1,4 +1,4 @@
-import AlbumCover from "./src/index.vue";
+import AlbumCover from './src/index.vue'
 
-export { AlbumCover };
-export default AlbumCover;
+export { AlbumCover }
+export default AlbumCover

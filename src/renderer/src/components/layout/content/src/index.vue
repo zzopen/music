@@ -1,27 +1,26 @@
 <template>
-    <div :class="getClass">
-         <m-page-content/>
-    </div>
+  <div :class="getClass">
+    <m-page-content />
+  </div>
 </template>
 <script setup lang="ts">
 import { globalCls } from '@/styles/module'
 import { useCls } from '@/composables'
 
 defineOptions({
-	name: 'LayoutContent'
+  name: 'LayoutContent'
 })
 
-const {nsCls} = useCls(globalCls.layoutContent)
+const { nsCls } = useCls(globalCls.layoutContent)
 const getClass = computed(() => {
   return [nsCls]
 })
-
 </script>
 
 <style scoped lang="scss">
 .#{$namespace-layout-content} {
-    width: 100%;
-    height: calc(100% - $header-height - $footer-height);
-    overflow: hidden; 
+  width: 100%;
+  height: calc(100% - $header-height - $footer-height);
+  overflow: hidden;
 }
 </style>

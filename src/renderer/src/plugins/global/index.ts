@@ -1,13 +1,15 @@
 import { App } from 'vue'
-import Components from "@/components"
-import "uno.css";
+import VueDOMPurifyHTML from 'vue-dompurify-html'
+import GlobalComponents from '@/components'
+import 'uno.css'
 
 export default {
-    install(app: App) {
-        setupGlobal(app)
-    }
+  install(app: App) {
+    setupGlobal(app)
+  }
 }
 
 export function setupGlobal(app: App) {
-    app.use(Components)
+  app.use(GlobalComponents)
+  app.use(VueDOMPurifyHTML)
 }

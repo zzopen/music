@@ -1,5 +1,5 @@
-import Duration from "./src/index.vue";
+import Duration from './src/index.vue'
 export * from './src/props'
 
-export { Duration };
-export default Duration;
+export { Duration }
+export default Duration

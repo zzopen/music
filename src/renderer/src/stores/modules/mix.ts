@@ -1,55 +1,53 @@
-import { defineStore } from "pinia";
-import type { MixState } from "../interface";
+import { defineStore } from 'pinia'
+import type { MixState } from '../interface'
 
 const defaultMixState: MixState = {
   playPageVisible: false,
-  playListPageVisible: false,
-};
+  playListPageVisible: false
+}
 
 export const useMixStore = defineStore({
-  id: "music-mix",
+  id: 'music-mix',
   state: (): MixState => ({ ...defaultMixState }),
   getters: {},
   actions: {
     /**** play-page ****/
     showPlayPage() {
       if (this.playPageVisible) {
-        return;
+        return
       }
 
-      this.playPageVisible = true;
+      this.playPageVisible = true
     },
     hidePlayPage() {
       if (!this.playPageVisible) {
-        return;
+        return
       }
 
-      this.playPageVisible = false;
+      this.playPageVisible = false
     },
     togglePlayPage() {
-      this.playPageVisible = !this.playPageVisible;
+      this.playPageVisible = !this.playPageVisible
     },
     /**** play-list-page ****/
     showPlayListPage() {
       if (this.playListPageVisible) {
-        return;
+        return
       }
 
-      this.playListPageVisible = true;
+      this.playListPageVisible = true
     },
     hidePlayListPage() {
       if (!this.playListPageVisible) {
-        return;
+        return
       }
 
-      this.playListPageVisible = false;
+      this.playListPageVisible = false
     },
     togglePlayListPage() {
-      this.playListPageVisible = !this.playListPageVisible;
-    },
-    /**** reset ****/
-    reset(){
-        
+      this.playListPageVisible = !this.playListPageVisible
     }
-  },
-});
+    /**** reset ****/
+    // reset() {}
+  }
+})

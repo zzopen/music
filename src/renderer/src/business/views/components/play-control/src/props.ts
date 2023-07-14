@@ -1,7 +1,5 @@
-const playControlProps = () => ({
+const playControlProps = () => ({})
 
-});
+type PlayControlProps = VueExtractFnPropsType<typeof playControlProps>
 
-type PlayControlProps = VueExtractFnPropsType<typeof playControlProps>;
-
-export { type PlayControlProps, playControlProps };
+export { type PlayControlProps, playControlProps }

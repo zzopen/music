@@ -1,18 +1,18 @@
-import _ from "lodash-es";
+import _ from 'lodash-es'
 
 function isEmptyObject(obj: object) {
-  if (typeof obj == "object" && !Array.isArray(obj)) {
-    for (let _ in obj) {
+  if (typeof obj == 'object' && !Array.isArray(obj)) {
+    for (const _ in obj) {
       return false
     }
 
-    return true;
+    return true
   }
 
-  return false;
+  return false
 }
 
-const isEmpty = _.isEmpty; //  // [],{},'',null,undefined,map,set
-const omit = _.omit;
+const isEmpty = _.isEmpty //  // [],{},'',null,undefined,map,set
+const omit = _.omit
 
-export { omit, isEmpty, isEmptyObject };
+export { omit, isEmpty, isEmptyObject }

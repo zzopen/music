@@ -1,5 +1,5 @@
-import PlayControlLeft from "./src/index.vue";
+import PlayControlLeft from './src/index.vue'
 export * from './src/props'
 
-export { PlayControlLeft };
-export default PlayControlLeft;
+export { PlayControlLeft }
+export default PlayControlLeft

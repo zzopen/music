@@ -1,4 +1,4 @@
-import SheetItem from "./src/index.vue";
+import SheetItem from './src/index.vue'
 
-export { SheetItem };
-export default SheetItem;
+export { SheetItem }
+export default SheetItem

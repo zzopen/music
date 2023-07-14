@@ -1,3 +1,3 @@
-import globalCls from "./index.module.scss";
+import globalCls from './index.module.scss'
 
-export { globalCls };
+export { globalCls }

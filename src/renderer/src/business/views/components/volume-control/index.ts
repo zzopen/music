@@ -1,4 +1,4 @@
-import VolumeControl from "./src/index.vue";
+import VolumeControl from './src/index.vue'
 
-export { VolumeControl };
-export default VolumeControl;
+export { VolumeControl }
+export default VolumeControl

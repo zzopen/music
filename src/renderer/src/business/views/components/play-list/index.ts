@@ -1,5 +1,5 @@
-import PlayList from "./src/index.vue";
+import PlayList from './src/index.vue'
 export * from './src/props'
 
-export { PlayList };
-export default PlayList;
+export { PlayList }
+export default PlayList

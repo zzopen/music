@@ -3,10 +3,10 @@ interface ShareState {
   songDirPath: string
 }
 
-const defaultShareState:ShareState = {
+const defaultShareState: ShareState = {
   isDev: true,
   songDirPath: ''
 }
 
-export type {ShareState}
-export {defaultShareState}
+export type { ShareState }
+export { defaultShareState }

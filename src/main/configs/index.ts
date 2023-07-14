@@ -1,3 +1,3 @@
-const SONG_DIR_NAME='songs_cache'
+const SONG_DIR_NAME = 'songs_cache'
 
-export {SONG_DIR_NAME}
+export { SONG_DIR_NAME }

@@ -1,6 +1,4 @@
-const playListDrawerProps = () => ({
+const playListDrawerProps = () => ({})
+type PlayListDrawerProps = VueExtractFnPropsType<typeof playListDrawerProps>
 
-});
-type PlayListDrawerProps = VueExtractFnPropsType<typeof playListDrawerProps>;
-
-export { type PlayListDrawerProps, playListDrawerProps };
+export { type PlayListDrawerProps, playListDrawerProps }

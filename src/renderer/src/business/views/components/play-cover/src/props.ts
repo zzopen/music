@@ -1,6 +1,4 @@
-const playCoverProps = () => ({
+const playCoverProps = () => ({})
+type PlayCoverProps = VueExtractFnPropsType<typeof playCoverProps>
 
-});
-type PlayCoverProps = VueExtractFnPropsType<typeof playCoverProps>;
-
-export { type PlayCoverProps, playCoverProps };
+export { type PlayCoverProps, playCoverProps }

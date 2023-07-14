@@ -1,6 +1,4 @@
-const playDurationProps = () => ({
+const playDurationProps = () => ({})
+type PlayDurationProps = VueExtractFnPropsType<typeof playDurationProps>
 
-});
-type PlayDurationProps = VueExtractFnPropsType<typeof playDurationProps>;
-
-export { type PlayDurationProps, playDurationProps };
+export { type PlayDurationProps, playDurationProps }

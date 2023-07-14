@@ -1,4 +1,4 @@
-import PlayStrip from "./src/index.vue";
+import PlayStrip from './src/index.vue'
 
-export { PlayStrip };
-export default PlayStrip;
+export { PlayStrip }
+export default PlayStrip

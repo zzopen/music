@@ -1,11 +1,3 @@
-{{#if template}}
-<template>
-    <div class="{{ class_name }}">
-
-    </div>
-</template>
-{{/if}}
-
 {{#if script}}
 <script lang="ts">
     export default {
@@ -19,10 +11,17 @@
 </script>
 {{/if}}
 
+{{#if template}}
+<template>
+    <div class="{{ class_name }}">
+
+    </div>
+</template>
+{{/if}}
+
+
 {{#if style}}
 <style lang="scss" scoped>
-.{{ class_name }} {
-
-}
+@import './index.scss';
 </style>
 {{/if}}

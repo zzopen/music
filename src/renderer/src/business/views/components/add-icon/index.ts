@@ -1,4 +1,4 @@
-import AddIcon from "./src/index.vue";
+import AddIcon from './src/index.vue'
 
-export { AddIcon };
-export default AddIcon;
+export { AddIcon }
+export default AddIcon

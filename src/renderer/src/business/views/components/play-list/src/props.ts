@@ -1,6 +1,4 @@
-const playListProps = () => ({
+const playListProps = () => ({})
+type PlayListProps = VueExtractFnPropsType<typeof playListProps>
 
-});
-type PlayListProps = VueExtractFnPropsType<typeof playListProps>;
-
-export { type PlayListProps, playListProps };
+export { type PlayListProps, playListProps }

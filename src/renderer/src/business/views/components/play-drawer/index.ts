@@ -1,5 +1,5 @@
-import PlayDrawer from "./src/index.vue";
+import PlayDrawer from './src/index.vue'
 export * from './src/props'
 
-export { PlayDrawer };
-export default PlayDrawer;
+export { PlayDrawer }
+export default PlayDrawer

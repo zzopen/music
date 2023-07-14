@@ -7,12 +7,9 @@
 </template>
 
 <script setup lang="ts">
-
 defineOptions({
-    name: 'HeaderNav'
-});
-
+  name: 'HeaderNav'
+})
 </script>
 
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>

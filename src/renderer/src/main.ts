@@ -1,11 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import { setupPlugins } from "@/plugins";
+import { setupPlugins } from '@/plugins'
 
-const app = createApp(App);
+const app = createApp(App)
 async function bootstrap() {
-  await setupPlugins(app);
-  app.mount("#app").$nextTick(() => postMessage({ payload: 'removeLoading' }, '*'))
+  await setupPlugins(app)
+  app.mount('#app').$nextTick(() => postMessage({ payload: 'removeLoading' }, '*'))
 }
 
 await bootstrap()

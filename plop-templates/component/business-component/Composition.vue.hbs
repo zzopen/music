@@ -1,11 +1,3 @@
-{{#if template}}
-<template>
-    <div class="{{ class_name }}">
-
-    </div>
-</template>
-{{/if}}
-
 {{#if script}}
 <script setup lang="ts">
 defineOptions({
@@ -16,10 +8,16 @@ defineOptions({
 </script>
 {{/if}}
 
-{{#if style}}
-<style scoped lang="scss">
-.{{ class_name }} {
+{{#if template}}
+<template>
+    <div class="{{ class_name }}">
 
-}
+    </div>
+</template>
+{{/if}}
+
+{{#if style}}
+<style lang="scss" scoped>
+@import './index.scss';
 </style>
 {{/if}}

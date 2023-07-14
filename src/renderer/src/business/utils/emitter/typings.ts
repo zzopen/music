@@ -1,4 +1,4 @@
 export type Events = {
-  play: unknown;
-  pause: unknown;
+  play: unknown
+  pause: unknown
 }

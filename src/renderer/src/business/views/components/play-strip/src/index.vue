@@ -1,23 +1,20 @@
 <template>
-   <div class="play-strip">
+  <div class="play-strip">
     <play-progress />
     <control-wrap />
-   </div>
+  </div>
 </template>
 
 <script setup lang="ts">
-
 import PlayProgress from '@/business/views/components/play-progress'
 import ControlWrap from './ControlWrap.vue'
 
 defineOptions({
-    name: 'PlayStrip'
-});
-
+  name: 'PlayStrip'
+})
 </script>
 
 <style scoped lang="scss">
 .play-strip {
-    
 }
 </style>

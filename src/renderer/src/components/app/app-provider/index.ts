@@ -1,4 +1,4 @@
-import {withInstall} from '@/utils'
+import { withInstall } from '@/utils'
 import appProvider from './src/index.vue'
 
 export const AppProvider = withInstall(appProvider)

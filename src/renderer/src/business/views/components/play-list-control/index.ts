@@ -1,4 +1,4 @@
-import PlayListControl from "./src/index.vue"
+import PlayListControl from './src/index.vue'
 
-export { PlayListControl };
-export default PlayListControl;
+export { PlayListControl }
+export default PlayListControl

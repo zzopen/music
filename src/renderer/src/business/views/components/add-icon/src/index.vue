@@ -1,16 +1,15 @@
-<template>
-   <plus-circle-outlined  class="add-icon"/>
-</template>
-
 <script setup lang="ts">
 defineOptions({
-    name: 'AddIcon'
-});
-
+  name: 'AddIcon'
+})
 </script>
+
+<template>
+  <plus-circle-outlined class="add-icon" />
+</template>
 
 <style scoped lang="scss">
 .add-icon {
-    @include icon-hover;
+  @include icon-hover;
 }
 </style>

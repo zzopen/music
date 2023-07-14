@@ -1,6 +1,5 @@
-function notEmpty  (name) {
-  (v) => (!v || v.trim() === "" ? `${name} is required` : true);
-} 
+function notEmpty(name) {
+  ;(v) => (!v || v.trim() === '' ? `${name} is required` : true)
+}
 
-
-export { notEmpty };
+export { notEmpty }

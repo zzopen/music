@@ -1,4 +1,4 @@
-import {withInstall} from '@/utils'
+import { withInstall } from '@/utils'
 import layoutContent from './src/index.vue'
 
 export const LayoutContent = withInstall(layoutContent)

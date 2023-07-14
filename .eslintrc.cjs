@@ -29,9 +29,12 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.js'],
+      files: ['*.js', '*.mjs', '*.ts', '*.vue'],
       rules: {
-        '@typescript-eslint/explicit-function-return-type': 'off'
+        '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+        'no-useless-escape': 'off'
       }
     }
   ]

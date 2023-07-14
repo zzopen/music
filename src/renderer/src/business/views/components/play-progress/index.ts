@@ -1,4 +1,4 @@
-import PlayProgress from "./src/index.vue";
+import PlayProgress from './src/index.vue'
 
-export { PlayProgress };
-export default PlayProgress;
+export { PlayProgress }
+export default PlayProgress

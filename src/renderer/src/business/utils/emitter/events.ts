@@ -1,18 +1,18 @@
-import { emitter } from "./index";
+import { emitter } from './index'
 
 function emitPlay() {
-    emitter.emit("play");
+  emitter.emit('play')
 }
 
 function emitPause() {
-  emitter.emit("pause");
+  emitter.emit('pause')
 }
 
 function emitClear() {
-  emitter.all.clear();
+  emitter.all.clear()
 }
 
-export { emitPlay, emitPause, emitClear };
+export { emitPlay, emitPause, emitClear }
 
 // const emitter: Emitter<Events> = mitt<Events>();
 
@@ -26,4 +26,4 @@ export { emitPlay, emitPause, emitClear };
 //   emitter.on("app_route_change", callback);
 // }
 
-// 
+//

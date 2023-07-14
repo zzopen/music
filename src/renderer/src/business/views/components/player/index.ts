@@ -1,4 +1,4 @@
-import Player from "./src/index.vue";
+import Player from './src/index.vue'
 
-export { Player };
-export default Player;
+export { Player }
+export default Player

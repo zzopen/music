@@ -1,4 +1,4 @@
-import OfflineSongSheet from "./src/index.vue";
+import OfflineSongSheet from './src/index.vue'
 
-export { OfflineSongSheet };
-export default OfflineSongSheet;
+export { OfflineSongSheet }
+export default OfflineSongSheet

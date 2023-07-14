@@ -11,15 +11,14 @@ import HeaderNav from './nav/index.vue'
 import HeaderSearch from './search/index.vue'
 
 defineOptions({
-    name: 'header-content'
-});
-
+  name: 'HeaderContent'
+})
 </script>
 
 <style scoped lang="scss">
 .header-content {
-    display: flex;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
 </style>
