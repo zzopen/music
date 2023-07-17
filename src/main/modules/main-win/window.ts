@@ -1,22 +1,24 @@
-import { shell, BrowserWindow, globalShortcut } from 'electron'
+import { app, shell, BrowserWindow, globalShortcut } from 'electron'
 import { is } from '@electron-toolkit/utils'
 import { join } from 'node:path'
 import icon from '@resources/icon.png?asset'
+import process from 'node:process'
 
 function createWindow(): BrowserWindow {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 1045,
     height: 670,
-    x: 300,
-    y: 120,
+    x: 200,
+    y: 90,
     show: false,
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false,
-      contextIsolation: false // 是否开启隔离上下文
+      contextIsolation: true, // 是否开启隔离上下文
+      nodeIntegrationInWorker: true
       // nodeIntegration: true // 渲染进程使用Node API
     }
   })
@@ -33,6 +35,7 @@ function createWindow(): BrowserWindow {
 
   mainWindow.on('ready-to-show', () => {
     mainWindow.show()
+    // console.log(app.getAppMetrics())
   })
 
   mainWindow.webContents.setWindowOpenHandler((details) => {

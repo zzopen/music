@@ -19,9 +19,14 @@ pnpm i -D vite-plugin-electron-renderer
 pnpm i -D rimraf
 // 本地存储
 pnpm i better-sqlite3
+pnpm i -D @types/better-sqlite3
+pnpm i -D @electron/rebuild
+./node_modules/.bin/electron-rebuild -f -w better-sqlite3
+
 pnpm i electron-store
 pnpm i fs-extra
 pnpm i -D @types/fs-extra
+pnpm i type-fest
 
 pnpm i -D ant-design-vue
 pnpm i @ant-design/icons-vue
@@ -43,11 +48,12 @@ pnpm i -D tailwindcss@latest postcss@latest autoprefixer@latest
 npx tailwindcss init -p
 pnpm i -D unocss
 
+pnpm i comlink
+pnpm i typeorm
+pnpm i -D reflect-metadata
 
 // lint
 pnpm i -D @zzopen/eslint-config-vue
-
-
 ```
 ```shell
 

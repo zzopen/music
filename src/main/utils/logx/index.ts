@@ -1,4 +1,4 @@
-import { now } from '../time'
+import { now } from '@main/utils/time'
 import chalk from 'chalk'
 
 function consoleLog(scope = 'log', ...msgs: any[]) {

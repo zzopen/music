@@ -10,3 +10,7 @@ declare module '*.vue' {
 interface ImportMetaEnv {
   readonly VITE_USE_ELECTRON: string
 }
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv
+}

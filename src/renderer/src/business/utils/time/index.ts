@@ -1,4 +1,4 @@
-import { dayjs } from '@/utils'
+import { dayjs } from '@/utils/day'
 const now = (): string => {
   return dayjs(new Date()).format('YYYY-MM-DD HH:mm:ss')
 }

@@ -1,13 +1,20 @@
 import { app } from 'electron'
-import { beforeAppReady, appInitListen, businessInit } from '@main/modules/init'
+import {
+  appBeforeReadyInit,
+  appListenEventInit,
+  businessInit,
+  ipcMainInit
+} from '@main/modules/init'
+import process from 'node:process'
+import { threadId } from 'worker_threads'
 
-// before app ready to do something
-beforeAppReady()
+appBeforeReadyInit()
+appListenEventInit()
 
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-// Some APIs can only be used after this event occurs.
 app.whenReady().then(async () => {
-  appInitListen()
   await businessInit()
+  ipcMainInit()
 })
+
+console.log('process.pid:', process.pid)
+console.log('init threadId:', threadId)

@@ -1,12 +1,14 @@
 import { app, BrowserWindow } from 'electron'
 import { createMainWindow } from '@main/modules/main-win'
 import { electronApp, optimizer } from '@electron-toolkit/utils'
+import { consoleLog } from '@main/utils'
 
-function init() {
+async function init() {
+  consoleLog('app-listen-init')
   // initSingletonApplication()
 
   // Set app user model id for windows
-  electronApp.setAppUserModelId('com.electron')
+  electronApp.setAppUserModelId('com.music-desktop')
 
   // Default open or close DevTools by F12 in development
   // and ignore CommandOrControl + R in production.
@@ -39,4 +41,4 @@ function initSingletonApplication() {
   }
 }
 
-export { init as appInitListen }
+export { init as appListenEventInit }

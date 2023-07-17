@@ -1,9 +1,9 @@
-import { consoleLog, delay } from '@main/utils'
+import { consoleLog } from '@main/utils'
 import { createMainWindow } from '@main/modules/main-win'
+// import { __test__ } from '@main/storage/examples'
 
 async function init() {
-  // await delay(3000)
-  consoleLog('async-init', '异步方法 初始化')
+  consoleLog('business-init', '异步方法 初始化')
   createMainWindow()
 }
 

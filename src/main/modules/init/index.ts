@@ -1,3 +1,4 @@
-export * from './beforeAppReady'
+export * from './appBeforeReadyInit'
 export * from './businessInit'
-export * from './appInitListen'
+export * from './appListenEventInit'
+export * from './ipcMainInit'

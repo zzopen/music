@@ -8,11 +8,20 @@ import Unocss from 'unocss/vite'
 
 export default defineConfig({
   main: {
+    build: {
+      rollupOptions: {
+        input: {
+          index: resolve('src/main/index.ts'),
+          dbWorker: resolve('src/main/worker/dbWorker.ts')
+        }
+      }
+    },
     plugins: [externalizeDepsPlugin({ exclude: ['chalk'] })],
     resolve: {
       alias: {
         '@main': resolve('src/main'),
         '@preload': resolve('src/preload'),
+        '@common': resolve('src/common'),
         '@resources': resolve('resources')
       }
     }
@@ -23,6 +32,7 @@ export default defineConfig({
       alias: {
         '@main': resolve('src/main'),
         '@preload': resolve('src/preload'),
+        '@common': resolve('src/common'),
         '@resources': resolve('resources')
       }
     }
@@ -30,9 +40,10 @@ export default defineConfig({
   renderer: {
     resolve: {
       alias: {
+        '@': resolve('src/renderer/src'),
         '@main': resolve('src/main'),
         '@preload': resolve('src/preload'),
-        '@': resolve('src/renderer/src')
+        '@common': resolve('src/common')
       }
     },
     css: {

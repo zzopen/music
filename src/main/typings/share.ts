@@ -1,12 +1,30 @@
+import type { CustomWorker } from '@main/worker'
+
+/**** 全局共享对象 ****/
 interface ShareState {
-  isDev: boolean
+  exeDirPath: string
+  appDataDirPath: string
+  configDirPath: string
+  userDataDirPath: string
+  dataDirPath: string
   songDirPath: string
+  dbDirPath: string
+  isDev: boolean
+  worker?: CustomWorker
 }
 
 const defaultShareState: ShareState = {
+  exeDirPath: '',
+  appDataDirPath: '',
+  userDataDirPath: '',
+  configDirPath: '',
+  dataDirPath: '',
+  songDirPath: '',
+  dbDirPath: '',
   isDev: true,
-  songDirPath: ''
+  worker: undefined
 }
 
+const shareState: ShareState = { ...defaultShareState }
 export type { ShareState }
-export { defaultShareState }
+export { shareState }

@@ -1,4 +1,4 @@
-import { now } from '../time'
+import { now } from '@/business/utils/time'
 import { isDevMode } from '../env'
 import chalk from 'chalk'
 
