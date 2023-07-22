@@ -19,9 +19,9 @@ const preloadContext = {
 
 async function __test__() {
   // const res = await preloadContext.songService.getById(1)
-  const song: ZZ.DTO.Song = { ...defaultZZDTOSong, ...{ name: '你好' } }
-  const res = await preloadContext.songService.insert(song)
-  console.log('res:', res)
+  // const song: ZZ.DTO.Song = { ...defaultZZDTOSong, ...{ name: '你好' } }
+  // const res = await preloadContext.songService.insert(song)
+  // console.log('res:', res)
 }
 
 export type { PreloadContext }

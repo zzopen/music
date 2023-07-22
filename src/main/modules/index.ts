@@ -1,13 +1,13 @@
 import { registMainWindow } from './main-win'
 
-let isRegistered = false
+let isRegister = false
 async function registerModules() {
-  if (isRegistered) {
+  if (isRegister) {
     return
   }
 
   registMainWindow()
-  isRegistered = true
+  isRegister = true
 }
 
 export { registerModules }

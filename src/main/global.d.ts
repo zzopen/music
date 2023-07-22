@@ -1,4 +1,5 @@
 /// <reference types="vite-plugin-electron/electron-env" />
+
 /* eslint-disable no-var */
 import { ShareState } from '@main/typings'
 

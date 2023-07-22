@@ -4,7 +4,7 @@ defineOptions({
 })
 
 onMounted(async () => {
-  await window.preloadContext.__test__()
+  // await window.preloadContext.__test__()
 })
 </script>
 

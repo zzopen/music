@@ -2,7 +2,9 @@ declare namespace ZZ {
   namespace DTO {
     /**** 歌曲 ****/
     interface Song {
+      id: string
       src: string
+      lyricSrc: string
       name: string
       singer: string
       album: string

@@ -1,11 +1,8 @@
-import { now } from '@main/utils/time'
-import chalk from 'chalk'
+import { now } from '@main/utils/timex'
+import electronLog from 'electron-log'
 
 function consoleLog(scope = 'log', ...msgs: any[]) {
-  console.log(
-    `${chalk.bgGreenBright.whiteBright.white.red(now())} [${chalk.blueBright.bold(scope)}]:`,
-    ...msgs
-  )
+  electronLog.info(`%cRed ${now()} %cGreen[${scope}]:`, 'color: red', 'color: green', ...msgs)
 }
 
 export { consoleLog }

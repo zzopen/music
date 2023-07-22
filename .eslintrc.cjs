@@ -8,7 +8,8 @@ module.exports = {
     commonjs: true,
     es6: true,
     node: true,
-    'vue/setup-compiler-macros': true
+    'vue/setup-compiler-macros': true,
+    jest: true
   },
   extends: [
     'plugin:vue/vue3-recommended',
@@ -16,6 +17,7 @@ module.exports = {
     '@vue/eslint-config-typescript/recommended',
     '@vue/eslint-config-prettier'
   ],
+  ignorePatterns: ['.eslintrc.cjs'],
   rules: {
     '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
     '@typescript-eslint/explicit-function-return-type': 'error',

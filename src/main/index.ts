@@ -1,20 +1,3 @@
-import { app } from 'electron'
-import {
-  appBeforeReadyInit,
-  appListenEventInit,
-  businessInit,
-  ipcMainInit
-} from '@main/modules/init'
-import process from 'node:process'
-import { threadId } from 'worker_threads'
+import { startApp } from '@main/core/app'
 
-appBeforeReadyInit()
-appListenEventInit()
-
-app.whenReady().then(async () => {
-  await businessInit()
-  ipcMainInit()
-})
-
-console.log('process.pid:', process.pid)
-console.log('init threadId:', threadId)
+startApp()

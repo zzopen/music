@@ -1,4 +1,4 @@
-import { app, shell, BrowserWindow, globalShortcut } from 'electron'
+import { shell, BrowserWindow, globalShortcut } from 'electron'
 import { is } from '@electron-toolkit/utils'
 import { join } from 'node:path'
 import icon from '@resources/icon.png?asset'
@@ -17,8 +17,9 @@ function createWindow(): BrowserWindow {
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false,
+      webSecurity: true,
       contextIsolation: true, // 是否开启隔离上下文
-      nodeIntegrationInWorker: true
+      nodeIntegrationInWorker: false
       // nodeIntegration: true // 渲染进程使用Node API
     }
   })

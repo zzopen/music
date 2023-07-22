@@ -7,7 +7,8 @@ interface ShareState {
   configDirPath: string
   userDataDirPath: string
   dataDirPath: string
-  songDirPath: string
+  songCachePath: string
+  songCacheDefautDirPath: string
   dbDirPath: string
   isDev: boolean
   worker?: CustomWorker
@@ -19,7 +20,8 @@ const defaultShareState: ShareState = {
   userDataDirPath: '',
   configDirPath: '',
   dataDirPath: '',
-  songDirPath: '',
+  songCachePath: '',
+  songCacheDefautDirPath: '',
   dbDirPath: '',
   isDev: true,
   worker: undefined

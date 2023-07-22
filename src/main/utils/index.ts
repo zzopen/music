@@ -1,6 +1,5 @@
 export * from './env'
 export * from './logx'
-export * from './time'
-export * from './day'
+export * from './timex'
 export * from './await-to'
 export * from './worker'

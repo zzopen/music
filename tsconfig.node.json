@@ -7,11 +7,12 @@
     "src/preload",
     "src/preload/global.d.ts",
     "src/common",
-    "src/common/global.d.ts",
+    "src/common/global.d.ts", "_draft/db",
   ],
   "compilerOptions": {
     "composite": true,
     "types": ["electron-vite/node"],
+    "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     // "strictPropertyInitialization": false,
@@ -20,7 +21,7 @@
       "@main/*": ["src/main/*"],
       "@preload/*": ["src/preload/*"],
       "@common/*": ["src/common/*"],
-      "@resources/*": ["resources/*"],
+      "@resources/*": ["resources/*"]
     }
   }
 }

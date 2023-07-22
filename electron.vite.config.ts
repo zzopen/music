@@ -12,7 +12,7 @@ export default defineConfig({
       rollupOptions: {
         input: {
           index: resolve('src/main/index.ts'),
-          dbWorker: resolve('src/main/worker/dbWorker.ts')
+          worker: resolve('src/main/worker/worker.ts')
         }
       }
     },
@@ -30,7 +30,6 @@ export default defineConfig({
     plugins: [externalizeDepsPlugin()],
     resolve: {
       alias: {
-        '@main': resolve('src/main'),
         '@preload': resolve('src/preload'),
         '@common': resolve('src/common'),
         '@resources': resolve('resources')
@@ -41,7 +40,6 @@ export default defineConfig({
     resolve: {
       alias: {
         '@': resolve('src/renderer/src'),
-        '@main': resolve('src/main'),
         '@preload': resolve('src/preload'),
         '@common': resolve('src/common')
       }

@@ -1,12 +1,9 @@
-import { initDbWorker } from './initDbWorker'
+import { createWorker } from './initWorker'
 
-function initWorker() {
-  return {
-    dbService: initDbWorker(),
-    exampleService: 'aaa'
-  }
+function init() {
+  return { ...createWorker() }
 }
 
-export type CustomWorker = ReturnType<typeof initWorker>
-export { initWorker }
-export type { WorkerDbService } from './dbWorker'
+export type CustomWorker = ReturnType<typeof createWorker>
+export { init as initWorker }
+export type { WorkerService } from './worker'

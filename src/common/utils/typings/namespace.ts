@@ -1,5 +1,7 @@
 export const defaultZZDTOSong: ZZ.DTO.Song = {
+  id: '',
   src: '',
+  lyricSrc: '',
   name: '',
   singer: '',
   album: '',
