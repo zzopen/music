@@ -1,0 +1,19 @@
+Name: offline-api
+Host: 0.0.0.0
+Port: 8989
+Mode: dev
+Timeout: 10000
+Log:
+  ServiceName: "offline-api"
+  Mode: file
+  Encoding: json
+  Path: "logs/offline-api/"
+  TimeFormat: "2006-01-02 15:04:05"
+Auth:
+  AccessSecret: abcdefghijklmn
+  # 30*24*60*60
+  AccessExpire: 2592000
+Global:
+  SqliteDirPath: /Users/xulei/Downloads/data/db/
+  SqliteDbName: music
+  SongDirPath: /Users/xulei/Downloads/data/songs_cache/default

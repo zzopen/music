@@ -1,0 +1,21 @@
+{
+  "extends": "@electron-toolkit/tsconfig/tsconfig.web.json",
+  "include": [
+    "src/renderer/src",
+    "src/preload",
+    "src/preload/global.d.ts",
+    "src/common",
+    "src/common/global.d.ts"
+  ],
+  "exclude": ["_draft"],
+  "compilerOptions": {
+    "composite": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/renderer/src/*"],
+      "@preload/*": ["src/preload/*"],
+      "@common/*": ["src/common/*"]
+    }
+  }
+}

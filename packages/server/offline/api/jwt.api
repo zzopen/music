@@ -1,0 +1,29 @@
+syntax = "v1"
+
+import "base.api"
+
+info(
+	author: "许磊"
+	date:   "2023-07-23"
+	desc:   "jwt模块"
+)
+
+type JwtTokenRequest {
+}
+
+type JwtTokenInfo {
+  AccessToken  string `json:"access_token"`
+	AccessExpire int64  `json:"access_expire"`
+	RefreshAfter int64  `json:"refresh_after"` // 建议客户端刷新token的绝对时间
+}
+
+@server (
+    group: jwt
+    prefix: jwt
+)
+
+service offline-api {
+	@doc "获取JWT Token"
+	@handler TokenHandler
+	post /token (JwtTokenRequest) returns (Reply)
+}

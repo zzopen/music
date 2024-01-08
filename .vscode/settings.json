@@ -7,7 +7,8 @@
     "**/node_modules": true,
     "**/.idea": true,
     "**/dist": false,
-    "**/.github": true
+    "**/.github": true,
+    "**/.history": true
   },
   "tslint.enable": false,
   "prettier.enable": true,
@@ -16,7 +17,12 @@
   "eslint.debug": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "eslint.options": {
     "extensions": ["js", "ts", "jsx", "tsx"]
   },

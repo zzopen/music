@@ -1,0 +1,30 @@
+{{#if script}}
+<script setup lang="ts">
+import { computed, ref } from 'vue'
+import { useCls } from '@/composables'
+import { globalCls } from '@/styles/module'
+
+defineOptions({
+  name: '{{ pascalCase component_name }}',
+  inheritAttrs: false
+})
+
+const { nsCls } = useCls(globalCls.{{ camelCase component_name }})
+const getClass = computed(() => {
+	return [nsCls]
+})
+
+</script>
+{{/if}}
+
+{{#if template}}
+<template>
+  <div :class="getClass"></div>
+</template>
+{{/if}}
+
+{{#if style}}
+<style scoped lang="scss">
+@import './index.scss';
+</style>
+{{/if}}

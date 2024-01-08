@@ -1,0 +1,32 @@
+import { BrowserWindow } from 'electron'
+import { is } from '@electron-toolkit/utils'
+import { join } from 'node:path'
+import process from 'node:process'
+
+let hidenWindow: BrowserWindow
+
+function createWindow(): BrowserWindow {
+  hidenWindow = new BrowserWindow({
+    show: false
+  })
+
+  windowListener()
+
+  // HMR for renderer base on electron-vite cli.
+  // Load the remote URL for development or the local html file for production.
+  if (is.dev && process.env['ELECTRON_RENDERER_URL']) {
+    hidenWindow.loadURL(process.env['ELECTRON_RENDERER_URL'])
+  } else {
+    hidenWindow.loadFile(join(__dirname, '../renderer/index.html'))
+  }
+
+  return hidenWindow
+}
+
+function windowListener() {
+  if (!hidenWindow) {
+    return
+  }
+}
+
+export { createWindow as createHidenWindow }

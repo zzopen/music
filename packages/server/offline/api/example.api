@@ -1,0 +1,27 @@
+syntax = "v1"
+
+info(
+	author: "许磊"
+  date:   "2023-07-23"
+	desc:   "example模块"
+)
+
+
+@server (
+    group: example
+    prefix: example
+)
+
+service offline-api {
+	@doc "测试1handler"
+	@handler t1
+	get /t1 returns (Reply)
+
+	@doc "歌曲测试数据"
+  @handler t2
+	get /t2 returns (Reply)
+
+	@doc "上传文件"
+  @handler t3
+  post /t3 returns (Reply)
+}

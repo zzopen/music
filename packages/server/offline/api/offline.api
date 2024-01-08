@@ -1,0 +1,15 @@
+syntax = "v1"
+
+info(
+	author: "许磊"
+	date:   "2023-07-23"
+	desc:   "music-server"
+)
+
+import "base.api"
+import "jwt.api"
+import "example.api"
+import "songsheet.api"
+import "song.api"
+
+service offline-api {}

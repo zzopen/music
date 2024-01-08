@@ -1,0 +1,53 @@
+syntax = "v1"
+
+import "base.api"
+
+info(
+		author: "许磊"
+  	date:   "2023-07-23"
+  	desc:   "歌单模块"
+)
+
+type (
+  SongsheetListReq {}
+
+	SongsheetListItem {
+      Id   string `json:"id"`
+      Name string `json:"name"`
+      CreatedAt string `json:"created_at"`
+      UpdatedAt string `json:"updated_at"`
+      DataUpdatedAt string `json:"data_updated_at"`
+  }
+
+  SongsheetSongListReq {
+      Id string `path:"id"`
+  }
+
+  SongListItem {
+      Id   string `json:"id"`
+      Name string `json:"name"`
+      Ext string `json:"ext"`
+      SongLocalPath string `json:"song_local_path"`
+      SongRoutePath string `json:"song_route_path"`
+      LyricText string `json:"lyric_text"`
+      CreatedAt string `json:"created_at"`
+      UpdatedAt string `json:"updated_at"`
+      DataUpdatedAt string `json:"data_updated_at"`
+  }
+)
+
+@server (
+    jwt: Auth
+    group: songsheet
+    prefix: songsheet
+)
+
+service offline-api {
+  @doc "获取歌单列表"
+	@handler list
+	get /list (SongsheetListReq) returns (Reply)
+
+	@doc "获取歌单歌曲列表"
+	@handler songList
+	get /songList/:id (SongsheetSongListReq) returns (Reply)
+}

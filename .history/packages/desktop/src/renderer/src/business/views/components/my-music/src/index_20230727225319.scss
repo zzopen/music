@@ -1,0 +1,14 @@
+.my-music {
+  .my-music-menu {
+    text-align: left;
+    // ant-menu-light.ant-menu-root.ant-menu-inline, .ant-menu-light.ant-menu-root.ant-menu-vertical
+    // menu 不知道为什么有一个1px的线，把他去掉
+    border-inline-end:none;
+  }
+
+  .title {
+      margin: 0 auto;
+      padding-left: 10px;
+      margin-top: 5px;
+  }
+}

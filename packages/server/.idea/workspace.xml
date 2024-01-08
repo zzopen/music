@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a9239ca-d43f-4c95-acfe-e4ffe3d50a1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.prettierrc.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_draft/ipcMainInit/dbService/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_draft/ipcMainInit/dbService/songService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_draft/ipcMainInit/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/entitlements.mac.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/icon.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build/notarize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dev-app-update.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/INSTALL.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/INSTALL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../electron-builder.json5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../electron-builder.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../electron.vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/business-component/Composition.vue.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/business-component/Options.vue.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/business-component/Setup.vue.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/business-component/index.scss.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/business-component/index.ts.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/common/props.ts.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/global-component/Global.vue.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/global-component/index.scss.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/global-component/index.ts.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/prompt.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plop-templates/component/utils.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../plopfile.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../postcss.config.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../public/electron-vite.animate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../public/electron-vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../resources/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/configs/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/events/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/events/ipcEvent.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/events/mainIpc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/events/rendererIpc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/requests/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/typings/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/typings/namespace/song/song.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/utils/day.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/utils/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/utils/logic/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/utils/logic/lyric/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/utils/typings/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/common/utils/typings/namespace.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/core/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/core/init/appListenEvent.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/core/init/globalData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/core/init/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/core/init/localServer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/core/init/renderer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/core/ipc/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/modules/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/modules/main-win/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/modules/main-win/window.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/app/api/hello/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/app/api/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/config/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/core/database/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/core/database/sqlite.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/core/exception/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/core/init.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/core/router/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/core/swagger/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/dao/baseDao.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/dao/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/dao/song/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/dao/song/songDao.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/model/baseModel.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/model/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/model/songModel.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/service/example/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/service/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/service/song/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/service/song/songService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/sql/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/db/sqlite/sql/table.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/server/src/typings/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/typings/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/typings/share.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/utils/await-to.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/utils/env.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/utils/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/utils/logx/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/utils/timex/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/utils/worker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/worker/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/worker/initWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/main/worker/worker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/preload/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/preload/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/preload/preload.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/preload/service/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/preload/service/song/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/preload/typings/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/assets/86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/assets/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/assets/songs/Avid.lrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/assets/songs/Avid.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/assets/songs/LilaS.lrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/assets/songs/LilaS.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/assets/songs/屋顶.lrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/assets/songs/屋顶.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/assets/vue.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/auto-import.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/typings/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/typings/play.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/typings/song-sheet.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/common.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/duration/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/emitter/events.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/emitter/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/emitter/typings.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/env.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/lodash.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/logic/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/logic/lyric/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/logx/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/time/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/utils/vueuse.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/add-icon/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/add-icon/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/album-cover/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/album-cover/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/custom-teleport/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/custom-teleport/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/custom-teleport/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/duration/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/duration/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/duration/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/footer/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/footer/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/header/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/header/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/header/src/nav/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/header/src/search/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/lyric/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/lyric/src/LyricText.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/lyric/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/menu-item/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/menu-item/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/menu-item/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/menu-section/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/menu-section/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/menu-section/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/offline-song-sheet/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/offline-song-sheet/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-control-left/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-control-left/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-control-left/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-control-right/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-control-right/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-control-right/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-control/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-control/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-control/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-cover/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-cover/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-cover/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-drawer/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-drawer/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-drawer/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-list-control/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-list-control/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-list-drawer/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-list-drawer/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-list-drawer/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-list/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-list/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-list/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-page/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-page/src/Content.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-page/src/Footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-page/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-progress/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-progress/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-strip/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-strip/src/ControlWrap.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/play-strip/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/player/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/player/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/sheet-item/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/sheet-item/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/sheet-item/src/props.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/sider/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/sider/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/volume-control/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/components/volume-control/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/business/views/discover/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/app/app-logo/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/app/app-logo/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/app/app-provider/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/app/app-provider/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/app/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/app/page-content/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/app/page-content/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/exception/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/exception/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/content/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/content/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/default/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/default/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/footer/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/footer/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/header/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/header/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/sider/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/sider/src/components/Sider.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/layout/sider/src/components/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/login/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/components/login/src/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/composables/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/composables/useCls/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/plugin-components.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/plugins/ant-design/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/plugins/error/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/plugins/global/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/plugins/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/plugins/pinia/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/plugins/vue-router/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/routers/examples/dashboard/workbench/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/routers/examples/dashboard/workbench1/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/routers/examples/home/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/routers/guard/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/routers/guard/loginGuard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/routers/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/routers/router.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/stores/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/stores/interface/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/stores/modules/mix.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/stores/modules/playList.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/stores/modules/player.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/styles/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/styles/mixin/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/styles/module/index.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/styles/module/index.module.scss.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/styles/module/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/styles/namespace.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/styles/variables/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/typings/components.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/typings/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/typings/typings.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/utils/create.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/utils/day.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/utils/format.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/utils/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/renderer/src/utils/with-install.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app/api/token.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app/api/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app/dto/base.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app/dto/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app/model/base.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app/model/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app/model/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app/service/token.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app/service/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/app/shared/enum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/config/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/auth/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/database/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/database/init.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/exception/exception-code.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/exception/http-exception.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/exception/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/exception/unify-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/global.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/init.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/log/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/log/log-config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/swagger/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/core/tool.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/src/typings/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/sss/koa-web-starter/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tailwind.config.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tsconfig.web.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Svldev8nX0Qrj4YezmESWKoWQA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xulei/jungle/githubproject/my/music/packages/server/offline/internal/core/model&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/offline/internal/core/model" />
+      <recent name="$PROJECT_DIR$/offline/api" />
+      <recent name="$PROJECT_DIR$/draft" />
+      <recent name="$PROJECT_DIR$/offline/internal/response" />
+      <recent name="$PROJECT_DIR$/offline/internal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/offline/internal/core/response/header" />
+      <recent name="$PROJECT_DIR$/offline/internal/core/model" />
+      <recent name="$PROJECT_DIR$/offline/internal/core/model/songsheet" />
+      <recent name="$PROJECT_DIR$/offline/internal/core/model/song" />
+      <recent name="$PROJECT_DIR$/offline/api/genmodel" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

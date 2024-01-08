@@ -1,0 +1,40 @@
+import "base.api"
+
+info(
+		author: "许磊"
+  	date:   "2023-07-23"
+  	desc:   "歌曲模块"
+)
+
+type (
+	SongListReq {
+		Id string `path:"id"`
+	}
+
+  SongListInfo {
+      Id   string `json:"id"`
+      Name string `json:"name"`
+      SongPath string `json:"song_path"`
+      LyricPath string `json:"lyric_path"`
+      CreatedAt string `json:"created_at"`
+      UpdatedAt string `json:"updated_at"`
+      DataUpdatedAt string `json:"data_updated_at"`
+  }
+
+	SongListReply {
+		  Base
+		  Data []SongListInfo `json:"data"`
+	}
+)
+
+@server (
+    jwt: Auth
+    group: song
+    prefix: song
+)
+
+service offline-api {
+	@doc "获取歌单内的全部歌曲信息"
+	@handler songList
+	get /:id (SongListReq) returns (SongListReply)
+}

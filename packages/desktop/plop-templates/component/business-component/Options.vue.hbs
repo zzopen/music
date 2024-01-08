@@ -1,0 +1,27 @@
+{{#if script}}
+<script setup lang="ts">
+  export default {
+      name: '{{ pascalCase component_name }}',
+      props: {},
+      data() {
+          return {}
+      },
+      created() {},
+      mounted() {},
+      methods: {}
+  }
+
+</script>
+{{/if}}
+
+{{#if template}}
+<template>
+    <div class="{{ class_name }}"> </div>
+</template>
+{{/if}}
+
+{{#if style}}
+<style lang="scss" scoped>
+@import './index.scss';
+</style>
+{{/if}}

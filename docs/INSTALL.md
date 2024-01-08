@@ -86,9 +86,10 @@ pnpm run dev
 [eslint.vuejs](https://eslint.vuejs.org/rules/first-attribute-linebreak.html)
 
 # 问题
-- [x] sequelize 增加created_at,updated_at,data_updated_at,creater,updater
-- [ ] sequelize 定义创建表的字段顺序
-- [ ] sequelize 定义创建表的字段顺序
+- [ ] electron-log 颜色失效
+- [ ] electron-log 日志位置 ~/Library/Logs/{app name}/{process type}.log
+- [ ] electron-store 存储位置 userData  /Users/xulei/Library/Application Support/@zzopen/music-desktop
+
 
 
 # 设计脑图

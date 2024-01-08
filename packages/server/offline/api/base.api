@@ -1,0 +1,7 @@
+syntax = "v1"
+
+type Reply {
+    Code int    `json:"code"`
+    Msg  string `json:"msg"`
+    Data interface{} `json:"data,omitempty"`
+}

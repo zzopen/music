@@ -1,0 +1,11 @@
+@mixin icon-hover {
+  cursor: pointer;
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+@mixin dark-theme {
+  //  background-color: #171718;
+  //  color: #565657;
+}

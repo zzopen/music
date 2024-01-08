@@ -1,0 +1,21 @@
+{{#if script}}
+<script setup lang="ts">
+defineOptions({
+  name: '{{ pascalCase component_name }}',
+  inheritAttrs: false
+})
+
+</script>
+{{/if}}
+
+{{#if template}}
+<template>
+  <div class="{{ class_name }}"></div>
+</template>
+{{/if}}
+
+{{#if style}}
+<style lang="scss" scoped>
+@import './index.scss';
+</style>
+{{/if}}

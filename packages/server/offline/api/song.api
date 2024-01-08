@@ -1,0 +1,33 @@
+syntax = "v1"
+
+import "base.api"
+
+info(
+		author: "许磊"
+  	date:   "2023-07-26"
+  	desc:   "歌曲模块"
+)
+
+type (
+  SongListReq {}
+
+  SongDetailReq {
+      Id string `path:"id"`
+  }
+)
+
+@server (
+    jwt: Auth
+    group: song
+    prefix: song
+)
+
+service offline-api {
+  @doc "本地歌曲列表"
+	@handler list
+	get /list (SongListReq) returns (Reply)
+
+  @doc "获取歌曲详情"
+	@handler detail
+	get /detail/:id (SongDetailReq) returns (Reply)
+}
